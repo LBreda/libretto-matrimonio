@@ -1,0 +1,407 @@
+\documentclass[12pt,twoside]{article}
+
+\usepackage[paperwidth=5.8in, paperheight=8.3in]{geometry}
+\setlength{\hoffset}{-0.60in} % this gives a .30in margin
+\setlength{\textwidth}{5in}
+\setlength{\voffset}{0in}
+\setlength{\textheight}{6.5in} % 1in margin at top and bottom; default text height is 430pt
+\setlength{\marginparwidth}{0in}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\usepackage{parskip}
+\usepackage{layout}
+
+\usepackage{calligra}
+\pagenumbering{gobble}
+
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{fontspec}
+\usepackage{dashrule}
+\usepackage{tabularx}
+\usepackage{pbox}
+\usepackage{tabu}
+\usepackage{multicol}
+
+%\usepackage[garamond]{mathdesign}
+%\usepackage[T1]{fontenc}
+
+\usepackage[T1]{fontenc}
+\usepackage{garamondx}
+\usepackage[garamondx,cmbraces]{newtxmath}
+
+% To make a booklet
+%\usepackage[print,1to1]{booklet}
+%\source{1}{5.8in}{8.3in}
+%\target{0.5}{11.7in}{8.3in}
+
+\definecolor{ourblue}{rgb}{0,0.16,0.48}
+
+\newcommand{\hone}[1]{{\centering \Huge\scshape #1
+
+\bigskip
+
+}}
+
+\newcommand{\htwo}[1]{{\Large\scshape #1}}
+\newcommand{\masspart}[1]{\bigskip
+
+  \htwo{#1}}
+\newcommand{\masssubpart}[1]{\bigskip
+
+  {\large\scshape #1}}
+\newcommand{\marriagepart}[1]{{\large\scshape #1}}
+\newcommand{\note}[1]{{\centering \textit{#1}}}
+\newcommand{\sayline}[2]{
+  \begin{tabularx}{\textwidth}{@{} r X @{}}
+    \makebox[6.0em][r]{\ifx&#1& #1 \else \textit{#1:} \fi} & #2
+\end{tabularx}}
+\newcommand{\mycal}[1]{\textcalligra{#1}}
+
+\newcommand{\cparbox}[2]{\parbox{#1}{\centering #2}}
+\newcommand{\partytitle}[1]{{\Large  {\mycal{#1}}}}
+\newcommand{\partyname}[1]{{\footnotesize \textsc{#1}}}
+\newcommand{\partyline}[2]{\partyname{#1 \linesep{} #2}}
+\newcommand{\linesep}{\raisebox{1.1pt}{\fontsize{4pt}{4.8pt}\fontspec{wmdividers1.TTF}p}} % other good letters: r, s, P, y, N
+\newcommand{\psep}{\bigskip{\fontspec{wmdividers1.TTF}p}\bigskip}
+
+\newcommand{\songlisting}[2]{\textit{#1}\hdashrule{\fill}{1pt}{1pt}#2\\}
+\newcommand{\reading}[1]{#1}
+\newcommand{\readingquote}[1]{
+\begin{quote}
+``\textit{#1}''
+\end{quote}
+}
+\newenvironment{keeptogether}{\begin{minipage}{\textwidth}}{\end{minipage}}
+
+\begin{document}
+
+% Shows the page layouts, with measurements and all
+%\layout
+
+\color{ourblue}
+
+\vspace*{\fill}
+
+{\centering
+\psep
+\vspace{3em}
+
+{\Huge
+\mycal{Lorenzo Breda}\\
+\mycal{\&}\\ \medskip
+\mycal{Gloria Akuamoah}
+}
+
+\vspace{3em}
+\psep
+\vspace{3em}
+
+\textsc{
+30 aprile 2017\\ \medskip
+ore 11:30\\ \medskip
+Chiesa di San Giovannino dei Cavalieri\\ \medskip
+Firenze}
+
+}
+
+\vspace*{\fill}
+\newpage
+
+% intentionally blank inside the cover
+\null
+
+\newpage
+
+\masspart{Riti di Introduzione}
+
+\note{Dopo l'ingresso degli sposi, i loro genitori accendono due candele di fianco all'altare, a simboleggiare le famiglie di origine}
+
+\masssubpart{Accoglienza}
+
+\sayline{Celebrante}{Lorenzo e Gloria, la Chiesa partecipa alla vostra gioia e insieme con i vostri cari vi accoglie con grande affetto nel giorno in cui davanti a Dio, nostro Padre, decidete di realizzare la comunione di tutta la vita.}
+
+\sayline{}{Per i credenti, Dio è fonte dell'amore e della fedeltà, perché Dio è amore. Ascoltiamo pertanto attentamente la sua Parola e preghiamolo con umiltà: adempia il Signore i desideri del vostro cuore ed esaudisca tutte le vostre preghiere.}
+
+
+\masspart{Liturgia della Parola}
+
+\masssubpart{Canto - Ogni mia parola (Isaia 55:10-11)}
+
+Come la pioggia e la neve\\
+scendono giù dal cielo\\
+e non vi ritornano, senza irrigare\\
+e far germogliare la terra,
+
+così ogni mia parola non ritornerà a me\\
+senza operare quanto desidero,\\
+senza aver compiuto ciò per cui l'avevo mandata\\
+ogni mia parola, ogni mia parola.
+
+\newpage
+
+\masssubpart{Prima lettura}
+
+\reading{Genesi 2:18-25}
+\readingquote{Questa volta è osso dalle mie ossa, carne dalla mia carne}
+
+E il Signore Dio disse: <<Non è bene che l'uomo sia solo: voglio fargli un aiuto che gli corrisponda>>. Allora il Signore Dio plasmò dal suolo ogni sorta di animali selvatici e tutti gli uccelli del cielo e li condusse all'uomo, per vedere come li avrebbe chiamati: in qualunque modo l'uomo avesse chiamato ognuno degli esseri viventi, quello doveva essere il suo nome. Così l'uomo impose nomi a tutto il bestiame, a tutti gli uccelli del cielo e a tutti gli animali selvatici, ma per l'uomo non trovò un aiuto che gli corrispondesse. Allora il Signore Dio fece scendere un torpore sull'uomo, che si addormentò; gli tolse una delle costole e richiuse la carne al suo posto. Il Signore Dio formò con la costola, che aveva tolta all'uomo, una donna e la condusse all'uomo. Allora l'uomo disse:
+\begin{quote}
+<<Questa volta\\
+è osso dalle mie ossa,\\
+carne dalla mia carne.\\
+La si chiamerà donna,\\
+perché dall'uomo è stata tolta>>
+\end{quote}
+Per questo l'uomo lascerà suo padre e sua madre e si unirà a sua moglie, e i due saranno un'unica carne.
+Ora tutti e due erano nudi, l'uomo e sua moglie, e non provavano vergogna.
+
+\newpage
+
+\masssubpart{Salmo (128)}
+
+Beato chi teme il Signore\\
+e cammina nelle sue vie.
+
+Della fatica delle tue mani ti nutrirai,\\
+sarai felice e avrai ogni bene.\\
+La tua sposa come vite feconda\\
+nell'intimità della tua casa;\\
+i tuoi figli come virgulti d'ulivo\\
+intorno alla tua mensa.
+
+Ecco com'è benedetto\\
+l'uomo che teme il Signore.
+
+Ti benedica il Signore da Sion.\\
+Possa tu vedere il bene di Gerusalemme\\
+tutti i giorni della tua vita!\\
+Possa tu vedere i figli dei tuoi figli!\\
+Pace su Israele!
+
+\masssubpart{Seconda Lettura}
+
+\reading{Efesini 5:2a, 5:15-33}
+\readingquote{Questo mistero è grande: io lo dico in riferimento a Cristo e alla Chiesa!}
+
+[Fratelli,] camminate nella carità, nel modo in cui anche Cristo ci ha amato e ha dato sé stesso per noi.
+
+Fate dunque molta attenzione al vostro modo di vivere, comportandovi non da stolti ma da saggi, facendo buon uso del tempo, perché i giorni sono cattivi. Non siate perciò sconsiderati, ma sappiate comprendere qual è la volontà del Signore. E non ubriacatevi di vino, che fa perdere il controllo di sé; siate invece ricolmi dello Spirito, intrattenendovi fra voi con salmi, inni, canti ispirati, cantando e inneggiando al Signore con il vostro cuore, rendendo continuamente grazie per ogni cosa a Dio Padre, nel nome del Signore nostro Gesù Cristo.
+
+Nel timore di Cristo, siate sottomessi gli uni agli altri: le mogli lo siano ai loro mariti, come al Signore; il marito infatti è capo della moglie, così come Cristo è capo della Chiesa, lui che è salvatore del corpo. E come la Chiesa è sottomessa a Cristo, così anche le mogli lo siano ai loro mariti in tutto.
+
+E voi, mariti, amate le vostre mogli, come anche Cristo ha amato la Chiesa e ha dato se stesso per lei, per renderla santa, purificandola con il lavacro dell'acqua mediante la parola, e per presentare a se stesso la Chiesa tutta gloriosa, senza macchia né ruga o alcunché di simile, ma santa e immacolata. Così anche i mariti hanno il dovere di amare le mogli come il proprio corpo: chi ama la propria moglie, ama se stesso. Nessuno infatti ha mai odiato la propria carne, anzi la nutre e la cura, come anche Cristo fa con la Chiesa, poiché siamo membra del suo corpo. Per questo l'uomo lascerà il padre e la madre e si unirà a sua moglie e i due diventeranno una sola carne. Questo mistero è grande: io lo dico in riferimento a Cristo e alla Chiesa! Così anche voi: ciascuno da parte sua ami la propria moglie come se stesso, e la moglie sia rispettosa verso il marito.
+
+\masssubpart{Canto al Vangelo (in piedi)}
+
+Alleluia, alleluia, alleluia, alleluia (2 volte)
+
+Canto per Cristo che mi libererà\\
+quando verrà nella gloria,\\
+quando la vita con lui rinascerà,\\
+alleluia, alleluia.
+
+Alleluia, alleluia, alleluia, alleluia (2 volte)
+
+\newpage
+
+\masssubpart{Vangelo}
+
+\reading{Giovanni 2:1-11}
+\readingquote{Qualsiasi cosa vi dica, fatela.}
+
+Il terzo giorno vi fu una festa di nozze a Cana di Galilea e c'era la madre di Gesù. Fu invitato alle nozze anche Gesù con i suoi discepoli. Venuto a mancare il vino, la madre di Gesù gli disse: <<Non hanno vino>>. E Gesù le rispose: <<Donna, che vuoi da me? Non è ancora giunta la mia ora>>. Sua madre disse ai servitori: <<Qualsiasi cosa vi dica, fatela>>.
+
+Vi erano là sei anfore di pietra per la purificazione rituale dei Giudei, contenenti ciascuna da ottanta a centoventi litri. E Gesù disse loro: <<Riempite d'acqua le anfore>>; e le riempirono fino all'orlo. Disse loro di nuovo: <<Ora prendetene e portatene a colui che dirige il banchetto>>. Ed essi gliene portarono. Come ebbe assaggiato l'acqua diventata vino, colui che dirigeva il banchetto -- il quale non sapeva da dove venisse, ma lo sapevano i servitori che avevano preso l'acqua -- chiamò lo sposo e gli disse: <<Tutti mettono in tavola il vino buono all'inizio e, quando si è già bevuto molto, quello meno buono. Tu invece hai tenuto da parte il vino buono finora>>.
+
+Questo, a Cana di Galilea, fu l'inizio dei segni compiuti da Gesù; egli manifestò la sua gloria e i suoi discepoli credettero in lui.
+
+
+\masssubpart{Omelia (seduti)}
+
+\newpage
+
+\masspart{Rito del Matrimonio}
+
+\masssubpart{Manifestazione del consenso e scambio dei voti}
+
+\sayline{Celebrante}{Carissimi, siete qui convenuti davanti ai ministri della Chiesa e davanti alla comunità perché la vostra decisione di unirvi in Matrimonio sia fortificata dal sigillo del Signore e il vostro amore, arricchito della Sua benedizione, sia rafforzato nella reciproca e perpetua fedeltà e nel compimento degli altri doveri del Matrimonio.}
+
+\sayline{}{Vi chiedo pertanto di esprimere davanti alla Chiesa le vostre intenzioni.}
+
+\sayline{}{Lorenzo e Gloria, siete venuti a celebrare il Matrimonio senza alcuna costrizione, in piena libertà e consapevoli del significato della vostra decisione?}
+
+\sayline{Sposi}{Sì}
+
+\sayline{Celebrante:}{Siete disposti, seguendo la via del Matrimonio, ad amarvi e a onorarvi l'un l'altro per tutta la vita?}
+
+\sayline{Sposi}{Sì}
+
+\sayline{Celebrante}{Siete disposti ad accogliere con amore i figli che Dio vorrà donarvi e a educarli secondo la legge di Cristo e della sua Chiesa?}
+
+\sayline{Sposi}{Sì}
+
+\sayline{Celebrante}{Se è vostra intenzione di unirvi in matrimonio, datevi la mano destra ed esprimete davanti a Dio e alla sua Chiesa il vostro consenso.}
+
+\newpage
+
+\note{Gli sposi si danno la mano destra.}
+
+\sayline{Lorenzo}{Io, Lorenzo, accolgo te, Gloria, come mia sposa. Prometto di esserti fedele sempre, nella gioia e nel dolore, nella salute e nella malattia, e di amarti e onorarti tutti i giorni della mia vita.}
+
+\sayline{Gloria}{Io, Gloria, accolgo te, Lorenzo, come mio sposo. Prometto di esserti fedele sempre, nella gioia e nel dolore, nella salute e nella malattia, e di amarti e onorarti tutti i giorni della mia vita.}
+
+\masssubpart{Benedizione e consegna degli anelli}
+
+\sayline{Celebrante}{Il Signore benedica questi anelli che vi donate scambievolmente in segno di amore e di fedeltà.}
+
+\sayline{Lorenzo}{Gloria, ricevi questo anello, segno del mio amore e della mia fedeltà, nel nome del Padre, del Figlio e dello Spirito Santo.}
+
+\sayline{Gloria}{Lorenzo, ricevi questo anello, segno del mio amore e della mia fedeltà, nel nome del Padre, del Figlio e dello Spirito Santo.}
+
+\newpage
+
+\masssubpart{Benedizione nuziale}
+
+\sayline{Celebrante}{Invochiamo ora su questi sposi la benedizione di Dio: egli sostenga con il Suo aiuto coloro che ha arricchito con la comunione di vita del Matrimonio.}
+
+\sayline{}{Padre santo, creatore dell'universo,\\%
+&che hai formato l'uomo e la donna a tua immagine\\%
+&e hai voluto benedire la loro unione,\\%
+&ti preghiamo umilmente per questi tuoi figli,\\%
+&che oggi si uniscono con il patto nuziale.}
+
+\sayline{}{Scenda su questi sposi, Lorenzo e Gloria,\\
+&la ricchezza delle tue benedizioni\\
+&e la forza del tuo Santo Spirito infiammi i loro cuori,\\
+&perché, mentre vivono il reciproco dono di amore,\\
+&siano esemplari per integrità di vita\\
+&e genitori saldi nella virtù.}
+
+\sayline{}{Ti lodino, Signore, nella gioia,\\
+&ti cerchino nella sofferenza;\\
+&godano del tuo sostegno nella fatica\\
+&e del tuo conforto nella necessità.}
+
+\sayline{}{Vivano a lungo nella prosperità e nella pace\\
+&e, con tutti gli amici che ora li circondano,\\
+&giungano alla felicità del tuo regno.\\
+&Per Cristo nostro Signore.}
+
+\sayline{Tutti:}{Amen}
+
+\newpage
+
+\masssubpart{Canto - Il Cielo Canta}
+
+\note{Gli sposi accendono la terza candela accanto all'altare, a simboleggiare la nascita di una nuova famiglia}
+
+Canta il cielo\\
+di gioia, alleluia!\\
+Quando la gloria di Dio\\
+splende su te e su me.\\
+Alleluia, alleluia!\\
+Alleluia, alleluia!
+
+Canta il cielo\\
+di gioia, alleluia!\\
+Quando la gloria di Dio\\
+ci unisce insiem\\
+Alleluia, alleluia!\\
+Alleuia, alleluia!
+
+\masssubpart{Preghiera dei fedeli}
+
+\sayline{Celebrante}{Invochiamo Dio, nostro Padre, sorgente inesauribile dell'amore, perché sostenga questi sposi nel cammino che oggi hanno iniziato.}
+
+\sayline{Lettore}{Per Lorenzo e Gloria: il Signore li sostenga nella donazione reciproca, e renda la loro unione feconda e piena di grazia e gioia. Preghiamo.}
+
+\sayline{Tutti}{Ascoltaci, o Padre}
+
+\sayline{Lettore}{Per Lorenzo e Gloria: la grazia della benedizione del Signore li conforti nelle difficoltà e li custodisca nella fedeltà. Preghiamo.}
+
+\sayline{Tutti}{Ascoltaci, o Padre}
+
+\newpage
+
+\sayline{Lettore}{Per le famiglie di Lorenzo e Gloria, perché li sostengano con la loro preghiera, il loro affetto e il loro consiglio. Preghiamo.}
+
+\sayline{Tutti}{Ascoltaci, o Padre}
+
+\sayline{Lettore}{Per i fidanzati: riconoscenti per il dono del loro amore, si preparino a costruire la loro famiglia secondo la Parola del Vangelo. Preghiamo.}
+
+\sayline{Tutti}{Ascoltaci, o Padre}
+
+\sayline{Lettore}{Per gli sposi cristiani qui presenti: possano attingere da questa celebrazione luce e forza, per rinnovare la grazia del loro matrimonio.}
+
+\sayline{Tutti}{Ascoltaci, o Padre}
+
+\sayline{Lettore}{Per il popolo cristiano: cresca ogni giorno nell'unità e nella fede, e sappia esprimere nella carità reciproca il suo rapporto d'amore con Dio.}
+
+\sayline{Tutti}{Ascoltaci, o Padre}
+
+\note{Chi vuole, può aggiungere una preghiera spontanea}
+
+\sayline{Celebrante}{Dio vuole che tutti i suoi figli siano concordi nell'amore. Coloro che credono in Cristo invochino il Padre con la preghiera della famiglia di Dio, che il Signore Gesù ci ha insegnato.}
+
+\sayline{Tutti}{Padre nostro, che sei nei cieli\\
+&sia santificato il tuo nome\\
+&venga il tuo regno, sia fatta la tua volontà\\
+&come in cielo così in terra.}
+
+\sayline{}{Dacci oggi il nostro pane quotidiano\\
+&e rimetti a noi i nostri debiti,\\
+&come noi li rimettiamo ai nostri debitori,\\
+&e non ci indurre in tentazione, ma liberaci dal male.}
+
+\sayline{}{Amen.}
+
+\masspart{Riti di conclusione}
+
+\masssubpart{Lettura degli articoli del Codice Civile}
+
+\note{Il celebrante legge gli articoli di legge riguardanti il matrimonio}
+
+\masssubpart{Benedizione finale}
+
+\note{Viene data la benedizione finale. Ad ogni invocazione si risponde ``Amen''}
+
+\masssubpart{Firma dell'atto di matrimonio}
+
+\note{Viene data lettura dell'atto di matrimonio, che viene firmato da sposi e testimoni}
+
+\newpage
+
+\masssubpart{Canto - Canto del Mare (Esodo 15)}
+
+Cantiamo al Signore,\\
+stupenda è la Sua vittoria.\\
+Signore è il suo nome,\\
+Alleluia. (x2)
+
+Voglio cantare in onore del Signore\\
+perché ha trionfato, alleluia.\\
+Ha gettato in mare cavallo e cavaliere.\\
+Mia forza e mio canto è il Signore,\\
+il mio Salvatore è il Dio di mio padre\\
+ed io lo voglio esaltare.
+
+Cantiamo al Signore,\\
+stupenda è la Sua vittoria.\\
+Signore è il suo nome,\\
+Alleluia. (x2)
+
+Si accumularon le acque al suo soffio\\
+s'alzarono le onde come un argine.\\
+Si raggelaron gli abissi in fondo al mare.\\
+Chi è come te, o Signore?\\
+Guidasti con forza il popolo redento\\
+e lo conducesti verso Sion.
+
+
+\newpage
+\null
+
+\newpage
+\null
+
+\end{document}
